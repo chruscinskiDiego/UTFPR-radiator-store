@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/bi.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="cars/logo.png">
+    <title>Radiator Store</title>
+  </head>
+  <body style="min-width: 372px;">
+    <header id="appHeader"></header>
+   
+    <section id="appCarrousel"></section>
+
+    <main class="mt-4">
+        <div class="container col-10">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <form class="justify-content-center justify-content-md-start md-3 mb-md-0">
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" placeholder="O que voce esta procurando?">
+                            <button class="btn btn-dark">Buscar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-9 col-md-7 alinha">
+                    <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
+                        <form class="ml-3 d-inline-block">
+                            <select name="" id="" class="form-select form-select-sm">
+                                <option value="">Ordenar pelo nome</option>
+                                <option value="">Ordenar pelo menor preco</option>
+                                <option value="">Ordenar pelo maior preco</option>
+                            </select>
+                        </form>
+                        <nav class="d-inline-block">
+                            <ul class="pagination pagination-sm my-0">
+                                <li class="page-item">
+                                    <button class="page-link">1</button>
+                                </li>
+                                <li class="page-item">
+                                    <button class="page-link">2</button>
+                                </li>
+                                <li class="page-item">
+                                    <button class="page-link">3</button>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="row" id="products">
+
+            </div>
+        </div>
+
+
+    </main>
+
+    <div id="appFooter"></div>
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="script/script.js"></script>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

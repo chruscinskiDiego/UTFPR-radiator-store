@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+@media only screen and (max-width: 992px) {
+    .trofeu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .alinha {
+
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.nav-alinhar {
+    margin-top: .4rem;
+}
+
+.nav-alinhar-c {
+    margin-top: .2rem;
+}
+.logo {
+    width: 3%;
+    margin-right: .5rem;
+    margin-left: 1rem;
+}
+
+.card {
+    border: none;
+}
+
+.card-footer {
+    border: none;
+    background: none;
+}
+
+
+
+.card-header {
+    background-color: black;
+    color: white;
+
+
+}
+
+.card-body {
+    background-color: white;
+}
+
+.card img:hover {
+    padding: 10px;
+    border: 1px solid var(--text-color);
+    transition: 0.4s;
+}
+
+.footer-padding {
+    padding-top: 2rem;
+}
+
+.down-menu {
+    margin-top: 5rem;
+}
+
+.down-menu2{
+    margin-top: 0rem;
+}
