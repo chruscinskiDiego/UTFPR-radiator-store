@@ -1,31 +1,31 @@
-# Loja de radiadores — interface web
+# Radiator store — web interface
 
-Projeto acadêmico que simula uma interface de e-commerce com HTML, CSS, JavaScript e Bootstrap.
+Academic project that simulates an e-commerce interface using HTML, CSS, JavaScript and Bootstrap.
 
-## Recursos
+## Features
 
-- Catálogo e páginas de produtos.
-- Carrinho de compras com estado local no navegador.
-- Telas de login e cadastro como parte da interface.
-- Componentes compartilhados de cabeçalho, rodapé e carrossel.
+- Product catalog and product pages.
+- Shopping cart with local browser state.
+- Login and registration screens as part of the interface.
+- Shared header, footer and carousel components.
 
-## Visualizar localmente
+## View locally
 
-Sirva a pasta com um servidor estático. Uma opção, com Python instalado:
+Serve the directory through a static web server. One option, with Python installed:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Abra http://localhost:8000. Não há package.json com um fluxo de build definido.
+Open http://localhost:8000. There is no package.json defining a build workflow.
 
-## Organização
+## Structure
 
-- `index.html` e demais arquivos HTML: telas.
-- `components/`: componentes de interface.
-- `script/` e `app.js`: comportamento no navegador.
-- `css/`: estilos.
+- `index.html` and other HTML files: screens.
+- `components/`: interface components.
+- `script/` and `app.js`: browser behavior.
+- `css/`: styles.
 
-## Escopo
+## Scope
 
-Simulação de frontend com armazenamento local. Não inclui autenticação de servidor, banco remoto ou pagamentos reais. O diretório node_modules está versionado no histórico atual; isso é um ponto de manutenção, não uma etapa de instalação documentada.
+Frontend simulation with local storage. There is no server authentication, remote database or real payment processing. The node_modules directory is versioned in the current history; this is a maintenance issue, not a documented installation step.
